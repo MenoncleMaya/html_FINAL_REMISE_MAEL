@@ -13,31 +13,31 @@
 
     <p>
     <label for="nom">Nom :</label>
-    <input type="text" id="nom" name="nom"></p>
+    <input type="text" id="nom" name="nom" required="required"></p>
 
     <p><label for="prenom">Prénom :</label>
-    <input type="text" id="prenom" name="prenom"></p>
+    <input type="text" id="prenom" name="prenom"required="required"></p>
 
     <p><label for="date-naissance">Date de naissance :</label>
-    <input type="date" id="date" name="date"></p>
+    <input type="date" id="date" name="date" required="required"></p>
 
     <p><label for="email">Mail:</label>
-    <input type="email" id="email" name="email"></p>
+    <input type="email" id="email" name="email" required="required"></p>
 
     <p><label for="site">Votre site:</label>
-    <input type="text" id="site" name="site"></p>
+    <input type="text" id="site" name="site" required="required"></p>
 
     <p><label for="password">Mot de passe :</label>
-    <input type="password" id="password" name="password"></p>
+    <input type="password" id="password" name="password" required="required"></p>
 
     <p><label for="genre">Genre :</label>
-    <input type="radio" id="Homme" name="genre">
+    <input type="radio" id="Homme" name="genre"required="required">
     <label for="genre">Homme</label>
-    <input type="radio" id="Femme" name="genre">
+    <input type="radio" id="Femme" name="genre"required="required">
     <label for="genre">Femme</label></p>
 
     <p><label for="pays">Pays :</label>
-    <select name="pays" id="pays">
+    <select name="pays" id="pays"required="required">
         <option fat value="" disabled selected="selected">Votre Pays</option>
         <option fat value="" disabled >Afrique</option>
         <option value="Algerie">Algerie</option>
@@ -72,13 +72,13 @@
     <label for="formations">Formation en JS</label></p>
 
     <p><label for="besoins_formation">Décrivez vos besoins en formation</label></p>
-    <textarea id="description_formations" name="description_formations" rows="5" cols="50"></textarea>
+    <textarea id="description_formations" name="description_formations" rows="5" cols="50"required="required"></textarea>
 </fieldset>
 
 <!-- Partie 3-->
 <fieldset>
     <legend for="photo">Envoyez nous votre photo</legend>
-    <p><input type="file" id="photo" name="photo" size="10000"></p>
+    <p><input type="file" id="photo" name="photo" required="required"></p>
 
     <p><input type="reset">  <input type="submit" value="ENVOYER"></p>
 </fieldset>
