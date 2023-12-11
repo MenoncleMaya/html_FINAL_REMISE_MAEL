@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="inscription.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<form action="Inscription" onsubmit="return Verif()">
+    <!-- Partie 1-->
+<fieldset>
+    <legend>Vos coordonnées</legend>
+
+    <p>
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom"></p>
+
+    <p><label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" name="prenom"></p>
+
+    <p><label for="date-naissance">Date de naissance :</label>
+    <input type="date" id="date" name="date"></p>
+
+    <p><label for="email">Mail:</label>
+    <input type="email" id="email" name="email"></p>
+
+    <p><label for="site">Votre site:</label>
+    <input type="text" id="site" name="site"></p>
+
+    <p><label for="password">Mot de passe :</label>
+    <input type="password" id="password" name="password"></p>
+
+    <p><label for="genre">Genre :</label>
+    <input type="radio" id="Homme" name="genre">
+    <label for="genre">Homme</label>
+    <input type="radio" id="Femme" name="genre">
+    <label for="genre">Femme</label></p>
+
+    <p><label for="pays">Pays :</label>
+    <select name="pays" id="pays">
+        <option fat value="" disabled selected="selected">Votre Pays</option>
+        <option fat value="" disabled >Afrique</option>
+        <option value="Algerie">Algerie</option>
+        <option value="Maroc">Maroc</option>
+        <option value="Mauritanie">Mauritanie</option>
+        <option fat value="" disabled >Europe</option>
+        <option value="Allemagne">Allemagne</option>
+        <option value="Belgique">Belgique</option>
+        <option value="France">France</option>
+        <option value="Italie">Italie</option>
+        <option fat value="" disabled >Amerique</option>
+        <option value="Canada">Canada</option>
+        <option value="Etats-Unis">Etats-Unis</option>
+        <option value="Mexique">Mexique</option>
+        <option value="Brezile">Brezile</option>
+        <option fat value="" disabled >Oceanie</option>
+        <option value="Australie">Australie</option>
+    </select></p>
+</fieldset>
+
+<!-- Partie 2-->
+<fieldset>
+    <legend>Vos formations</legend>
+    
+    <p><input type="checkbox" id="formations" name="formations">
+    <label for="formations">Formation en CSS3</label></p>
+
+    <p><input type="checkbox" id="formations" name="formations">
+    <label for="formations">Formation en CSS3</label></p>
+
+    <p><input type="checkbox" id="formations" name="formations">
+    <label for="formations">Formation en JS</label></p>
+
+    <p><label for="besoins_formation">Décrivez vos besoins en formation</label></p>
+    <textarea id="description_formations" name="description_formations" rows="5" cols="50"></textarea>
+</fieldset>
+
+<!-- Partie 3-->
+<fieldset>
+    <legend for="photo">Envoyez nous votre photo</legend>
+    <p><input type="file" id="photo" name="photo" size="10000"></p>
+
+    <p><input type="reset">  <input type="submit" value="ENVOYER"></p>
+</fieldset>
+</form>
+</body>
+</html>

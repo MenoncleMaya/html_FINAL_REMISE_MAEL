@@ -1,0 +1,84 @@
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+fieldset label, fieldset input {
+    display: inline-block;
+    vertical-align: middle;
+}
+fieldset legend {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+select .fat{
+    font-weight: bold;
+    color: black;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+   }
+   
+   input[type="submit"]:hover {
+    background-color: #0056b3;
+   }
+   
+   input[type="submit"]:active {
+    background-color: #004085;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+   }
+
+   input[type="reset"] {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+   }
+   
+   input[type="reset"]:hover {
+    background-color: #0056b3;
+   }
+   
+   input[type="reset"]:active {
+    background-color: #004085;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+   }
