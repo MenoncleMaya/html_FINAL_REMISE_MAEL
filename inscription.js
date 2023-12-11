@@ -19,45 +19,45 @@ function Verif(){
 
     if(Nom === ""){
         alert("Veuillez entrer votre Nom!");
-        Nom.focus();
+        Nom.focus;
         return false;
     }
 
     if(Prenom === ""){
         alert("Veuillez entrer votre Prenom!");
-        Prenom.focus();
+        Prenom.focus;
         return false;
     }
     if(Date === null){
         alert("Veuillez entrer votre date de naissance!");
-        Date.focus();
+        Date.focus;
         return false;
     }
     if(Email === ""){
         alert("Veuillez entrer votre adresse couriel!");
-        Email.focus();
+        Email.focus;
         return false;
     }
     if(Site === ""){
         alert("Veuillez entrer votre site!");
-        Site.focus();
+        Site.focus;
         return false;
     }
     if(Password.lenght !== 8){
         alert("Veuillez entrer votre mot de passe d'exactement 8 charactere!");
-        Password.focus();
+        Password.focus;
         return false;
     }
     if(Genre === "Homme" || Genre === "Femme"){
     }
     else{
         alert("Veuillez entrer votre genre!");
-        Genre.focus();
+        Genre.focus;
         return false;
     }
     if (Pays.selectedIndex === 0) {
         alert("Veuillez sélectionner votre pays.");
-        Pays.focus();
+        Pays.focus;
         return false;
     }
     for (var i = 0; i < Formations.length; i++) {

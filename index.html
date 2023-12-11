@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<form action="Inscription" onsubmit="return Verif()">
+<form onsubmit="return Verif()">
     <!-- Partie 1
         information sur la personne
     -->
@@ -15,31 +15,31 @@
 
     <p>
     <label for="nom">Nom :</label>
-    <input type="text" id="nom" name="nom" required="required"></p>
+    <input type="text" id="nom" name="nom" ></p>
 
     <p><label for="prenom">Prénom :</label>
-    <input type="text" id="prenom" name="prenom"required="required"></p>
+    <input type="text" id="prenom" name="prenom"></p>
 
     <p><label for="date-naissance">Date de naissance :</label>
-    <input type="date" id="date" name="date" required="required"></p>
+    <input type="date" id="date" name="date" ></p>
 
     <p><label for="email">Mail:</label>
-    <input type="email" id="email" name="email" required="required"></p>
+    <input type="email" id="email" name="email"></p>
 
     <p><label for="site">Votre site:</label>
-    <input type="text" id="site" name="site" required="required"></p>
+    <input type="text" id="site" name="site" ></p>
 
     <p><label for="password">Mot de passe :</label>
-    <input type="password" id="password" name="password" required="required"></p>
+    <input type="password" id="password" name="password" ></p>
 
     <p><label for="genre">Genre :</label>
-    <input type="radio" id="Homme" name="genre"required="required">
+    <input type="radio" id="Homme" name="genre">
     <label for="genre">Homme</label>
-    <input type="radio" id="Femme" name="genre"required="required">
+    <input type="radio" id="Femme" name="genre">
     <label for="genre">Femme</label></p>
 
     <p><label for="pays">Pays :</label>
-    <select name="pays" id="pays"required="required">
+    <select name="pays" id="pays">
         <option fat value="" disabled selected="selected">Votre Pays</option>
         <option fat value="" disabled >Afrique</option>
         <option value="Algerie">Algerie</option>
@@ -76,7 +76,7 @@
     <label for="formations">Formation en JS</label></p>
 
     <p><label for="besoins_formation">Décrivez vos besoins en formation</label></p>
-    <textarea id="description_formations" name="description_formations" rows="5" cols="50"required="required"></textarea>
+    <textarea id="description_formations" name="description_formations" rows="5" cols="50"></textarea>
 </fieldset>
 
 <!-- Partie 3
@@ -84,7 +84,7 @@
 -->
 <fieldset>
     <legend for="photo">Envoyez nous votre photo</legend>
-    <p><input type="file" id="photo" name="photo" required="required"></p>
+    <p><input type="file" id="photo" name="photo" ></p>
 
     <p><input type="reset">  <input type="submit" value="ENVOYER"></p>
 </fieldset>
